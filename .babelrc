@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "targets": {
+        "browsers": ["ie >= 11"]
+      }
+    }],
+    "react"
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-export-extensions",
+    "transform-object-rest-spread"
+  ],
+}
